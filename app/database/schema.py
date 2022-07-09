@@ -11,8 +11,6 @@ from sqlalchemy.schema import Column, ForeignKey
 from sqlalchemy.sql import func
 from sqlalchemy.types import DateTime, Integer, String
 
-from . import Database
-
 Base = declarative_base()
 
 class Users(Base):
